@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document 4</title>
+    <style>
+input[type=text]
+{
+    border:3px dashed blueviolet;
+}
+input[type=password]
+{
+    border:5px solid palevioletred;
+}
+ul>li{
+    color:aquamarine;
+    font-size: 50px;
+}
+p+p{
+    color:green;
+}
+a:hover{
+    color:violet;}
+li:nth-child(2){
+    color:goldenrod;
+}
+div:not(.class1){
+    border:3px dashed crimson
+}
+.class4::before{
+    content: "shiza";
+    color:mediumvioletred
+}
+.class6::after{
+content:"shiza";
+color:olive;
+}
+p::first-letter{
+    color:fuchsia;
+    font-size: 200px;;
+}
+    </style>
+</head>
+<body>
+    <!--Advanced selectors-->
+    <!--Attribute selector-->
+    <input type="text" placeholder="Enter name"> <br><br>
+    <input type="password" placeholder="Enter Password"> 
+    <!--Child selectors-->
+     <ul>
+        <li>Home</li>
+        <li>School</li>
+     </ul>
+     <!--Sibling selector-->
+     <h1>title</h1>
+     <p>this is a paragraph</p>
+     <p>this is a paragraph</p>
+
+     <!--PSEUDO classes-->
+     <!--Hover-->
+     <a href="#">youtube</a><!-- IF WE put our pointer it will be styled-->
+     <!--nth child-->
+     <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+     </ul>
+     <!--not selector-->
+     <div class="class1">
+        iam shiza
+     </div>
+     <div class="class2">
+        this is codingal.
+     </div>
+     <!--pseudo elements-->
+     <!--before-->
+     <div class="class4">
+        before
+     </div>
+     <!--after-->
+     <div class="class6">
+        after
+     </div>
+     <!--first letter-->
+     <p>this is a paragraph</p>
+
+</body
